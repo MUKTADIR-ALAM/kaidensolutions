@@ -88,6 +88,11 @@ export default function Home() {
       <HeroSection></HeroSection>
       <ContactSection></ContactSection>
       <Footer></Footer>
+      <div className="bg-[#000000] h-10">
+        <div className="text-lg text-gray-500 text-center ">
+              © 2025, Site. All Rights Reserved. powered by <a className="text-[#95ff53] text-md font-bold" href="https://framiomotion.vercel.app/" target="_blank">Framio Motion</a>
+            </div>
+      </div>
     </div>
   );
 }

@@ -148,11 +148,14 @@ export default function Footer() {
                 Privacy Policy
               </a>
             </div>
-            <div className="text-xs text-gray-500">
-              © 2025, Site. All Rights Reserved.
-            </div>
+            {/* <div className="text-xs text-gray-500">
+              © 2025, Site. All Rights Reserved. powered by <a className="text-[#95ff53] text-md font-bold" href="https://framiomotion.vercel.app/" target="_blank">Framio Motion</a>
+            </div> */}
           </div>
         </div>
+
+
+
       </div>
     </footer>
   );

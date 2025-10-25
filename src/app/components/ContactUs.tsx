@@ -1,6 +1,5 @@
 "use client";
 
-
 export default function ContactSection() {
   return (
     <section id="contact" className="py-20 px-4 md:px-12 lg:px-24">
@@ -8,12 +7,10 @@ export default function ContactSection() {
         {/* Section Header */}
         <div className="text-center mb-16 px-4">
           <p className="text-base font-medium  mb-3">Get In Touch</p>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Contact Us
-          </h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h2>
           <p className="text-lg max-w-4xl mx-auto leading-relaxed">
-            Have questions or ready to start your project? We'd love to hear from
-            you. Reach out and let's create something amazing together.
+            Have questions or ready to start your project? We'd love to hear
+            from you. Reach out and let's create something amazing together.
           </p>
         </div>
 
@@ -53,7 +50,7 @@ export default function ContactSection() {
                 </div>
 
                 {/* Email */}
-                <div className="flex items-start">
+                {/* <div className="flex items-start">
                   <div className="bg-black p-3 rounded-none mr-4">
                     <svg
                       className="w-6 h-6 text-white"
@@ -73,9 +70,11 @@ export default function ContactSection() {
                     <h4 className="text-lg font-semibold text-black mb-1">
                       Email
                     </h4>
-                    <p className="text-lg text-gray-600">kelvinudarbe101@gmail.com</p>
+                    <p className="text-lg text-gray-600">
+                      kelvinudarbe101@gmail.com
+                    </p>
                   </div>
-                </div>
+                </div> */}
 
                 {/* Address */}
                 <div className="flex items-start">
@@ -102,12 +101,48 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-black mb-1">
-                      Office
+                      Office 1
                     </h4>
                     <p className="text-lg text-gray-600">
                       367 Sitio Palaming, Barangay Quetegan
                       <br />
                       Mangatarem, Pangasinan 2413
+                      <br />
+                      PHILIPPINES
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <div className="bg-black p-3 rounded-none mr-4">
+                    <svg
+                      className="w-6 h-6 text-white"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                      ></path>
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-black mb-1">
+                      Office 2
+                    </h4>
+                    <p className="text-lg text-gray-600">
+                      Kaiden Solutions
+                      <br />
+                      Barangay Quetegan, Mangatarem Pangasinan 2413
                       <br />
                       PHILIPPINES
                     </p>
