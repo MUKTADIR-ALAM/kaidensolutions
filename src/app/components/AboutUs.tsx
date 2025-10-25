@@ -15,7 +15,7 @@ export default function HeroSection() {
             <h2 className="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl">
               Hey 👋 I am
               <br />
-              Kelvin C Udarbe
+              Kelvin C. Udarbe
             </h2>
 
             <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 dark:text-gray-300 md:mt-8">
