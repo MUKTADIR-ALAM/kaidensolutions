@@ -12,10 +12,12 @@ export default function HeroSection() {
         <div className="grid items-center grid-cols-1 md:grid-cols-2">
           {/* Text Section */}
           <div>
-            <h2 className="text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl">
+            <h2 className="text-2xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl">
               Hey 👋 I am
               <br />
-              Kelvin C. Udarbe (C.E.O)
+              Kelvin C. Udarbe
+              <br />
+              <p className="text-[30px] text-gray-500 font-medium">Founder & CEO</p>
             </h2>
 
             <p className="max-w-lg mt-3 text-xl leading-relaxed text-gray-600 dark:text-gray-300 md:mt-8">
