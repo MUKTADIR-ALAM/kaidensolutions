@@ -77,7 +77,7 @@ export default function ContactSection() {
                 </div> */}
 
                 {/* Address */}
-                <div className="flex items-start">
+                {/* <div className="flex items-start">
                   <div className="bg-black p-3 rounded-none mr-4">
                     <svg
                       className="w-6 h-6 text-white"
@@ -111,7 +111,7 @@ export default function ContactSection() {
                       PHILIPPINES
                     </p>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="flex items-start">
                   <div className="bg-black p-3 rounded-none mr-4">
@@ -137,7 +137,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-black mb-1">
-                      Office 2
+                      Office
                     </h4>
                     <p className="text-lg text-gray-600">
                       Kaiden Solutions
@@ -171,9 +171,7 @@ export default function ContactSection() {
                       Business Hours
                     </h4>
                     <p className="text-lg text-gray-600">
-                      Mon - Fri: 9:00 AM - 6:00 PM
-                      <br />
-                      Sat: 10:00 AM - 4:00 PM
+                      24/7
                     </p>
                   </div>
                 </div>

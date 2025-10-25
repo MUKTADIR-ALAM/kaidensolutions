@@ -21,7 +21,7 @@ export function AuroraBackgroundDemo() {
           Grow Your Business with Kaiden Solutions
         </div>
         <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
-          Kaiden Solutions was established in 2016
+          Kaiden Solutions was established in oct 2025
         </div>
         <a
           href="https://wa.me/639195095766"

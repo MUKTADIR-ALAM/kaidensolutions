@@ -62,6 +62,12 @@ export default function Home() {
       description:
         "Get reliable helpdesk, troubleshooting, and tech support services to keep your business running smoothly.",
     },
+    {
+      id:7,
+      title:"Tailored Solutions",
+      image:"https://images.pexels.com/photos/1181534/pexels-photo-1181534.jpeg?_gl=1*1key28y*_ga*MTcwNTAzNDU1OS4xNzYxMzE1MjI0*_ga_8JE65Q40S6*czE3NjE0MDUwMjUkbzUkZzEkdDE3NjE0MDUwNjIkajIzJGwwJGgw",
+      description:"From project-based teams to 24/7 support, industry-specific experts, and custom analytics, we design staffing solutions that fit your business perfectly."
+    }
   ];
 
   return (
