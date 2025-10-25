@@ -1,18 +1,17 @@
 "use client";
 
-import React from "react";
 
 export default function ContactSection() {
   return (
-    <section className="py-20 px-4 md:px-12 lg:px-24">
+    <section id="contact" className="py-20 px-4 md:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16 px-4">
-          <p className="text-base font-medium text-gray-500 mb-3">Get In Touch</p>
-          <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
+          <p className="text-base font-medium  mb-3">Get In Touch</p>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Contact Us
           </h2>
-          <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-lg max-w-4xl mx-auto leading-relaxed">
             Have questions or ready to start your project? We'd love to hear from
             you. Reach out and let's create something amazing together.
           </p>
@@ -49,7 +48,7 @@ export default function ContactSection() {
                     <h4 className="text-lg font-semibold text-black mb-1">
                       Phone
                     </h4>
-                    <p className="text-lg text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-lg text-gray-600">+63919-509-5766</p>
                   </div>
                 </div>
 
@@ -74,7 +73,7 @@ export default function ContactSection() {
                     <h4 className="text-lg font-semibold text-black mb-1">
                       Email
                     </h4>
-                    <p className="text-lg text-gray-600">hello@company.com</p>
+                    <p className="text-lg text-gray-600">kelvinudarbe101@gmail.com</p>
                   </div>
                 </div>
 
@@ -106,9 +105,11 @@ export default function ContactSection() {
                       Office
                     </h4>
                     <p className="text-lg text-gray-600">
-                      123 Business Ave, Suite 100
+                      367 Sitio Palaming, Barangay Quetegan
                       <br />
-                      New York, NY 10001
+                      Mangatarem, Pangasinan 2413
+                      <br />
+                      PHILIPPINES
                     </p>
                   </div>
                 </div>

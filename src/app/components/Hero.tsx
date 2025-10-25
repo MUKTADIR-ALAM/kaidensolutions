@@ -1,9 +1,9 @@
 "use client";
- 
+
 import { AuroraBackground } from "@/components/ui/aurora-background";
 import { motion } from "motion/react";
 import React from "react";
- 
+
 export function AuroraBackgroundDemo() {
   return (
     <AuroraBackground>
@@ -18,14 +18,18 @@ export function AuroraBackgroundDemo() {
         className="relative flex flex-col gap-4 items-center justify-center px-4"
       >
         <div className="text-3xl md:text-7xl font-bold dark:text-white text-center">
-          Background lights are cool you know.
+          Grow Your Business with Kaiden Solutions
         </div>
         <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
-          And this, is chemical burn.
+          Kaiden Solutions was established in 2016
         </div>
-        <button className="bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2">
-          Debug now
-        </button>
+        <a
+          href="https://wa.me/639195095766"
+          target="_blank"
+          className="bg-black dark:bg-white rounded-full w-fit text-white dark:text-black px-4 py-2"
+        >
+          Get Quote
+        </a>
       </motion.div>
     </AuroraBackground>
   );
