@@ -76,7 +76,7 @@ export default function Home() {
       <AuroraBackgroundDemo></AuroraBackgroundDemo>
 
       <div className="m-5 my-20" id="services">
-        <h1 className="my-9 text-center text-4xl font-bold"> Our services </h1>
+        <h1 className="my-9 text-center text-4xl font-bold"> Our Services </h1>
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-center items-center gap-10">
           {services.map((service) => {
             return (

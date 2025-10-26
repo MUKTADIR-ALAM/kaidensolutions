@@ -13,7 +13,7 @@ export default function HeroSection() {
           {/* Text Section */}
           <div>
             <h2 className="text-2xl font-bold leading-tight text-black dark:text-white sm:text-4xl lg:text-5xl">
-              Hey 👋 I am
+              Hey I am
               <br />
               Kelvin C. Udarbe
               <br />
