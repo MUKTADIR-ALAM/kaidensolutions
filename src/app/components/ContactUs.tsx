@@ -171,7 +171,7 @@ export default function ContactSection() {
                       Business Hours
                     </h4>
                     <p className="text-lg text-gray-600">
-                      24/7
+                      Open 24/7
                     </p>
                   </div>
                 </div>
