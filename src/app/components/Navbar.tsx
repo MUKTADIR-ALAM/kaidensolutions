@@ -71,9 +71,10 @@ export function NavbarDemo() {
                 </DropdownMenuContent>
               </DropdownMenu>
             </div>
-            <a href="https://wa.me/639195095766" target="_blank">
-              <NavbarButton variant="primary">Get Quote</NavbarButton>
-            </a>
+            <NavbarButton variant="primary" onClick={() => window.open("https://wa.me/639195095766", "_blank")}
+>
+               Get Quote
+            </NavbarButton>
           </div>
         </NavBody>
 
@@ -102,7 +103,6 @@ export function NavbarDemo() {
               </a>
             ))}
             <div className="flex w-full flex-col gap-4">
-
               <div className="z-10">
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
@@ -125,7 +125,7 @@ export function NavbarDemo() {
                   </DropdownMenuContent>
                 </DropdownMenu>
               </div>
-              
+
               <NavbarButton
                 onClick={() => setIsMobileMenuOpen(false)}
                 variant="primary"

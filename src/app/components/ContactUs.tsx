@@ -45,7 +45,7 @@ export default function ContactSection() {
                     <h4 className="text-lg font-semibold text-black mb-1">
                       Phone
                     </h4>
-                    <p className="text-lg text-gray-600">+63919-509-5766</p>
+                    <p className="text-lg text-gray-600">+63 919 509 5766</p>
                   </div>
                 </div>
 
